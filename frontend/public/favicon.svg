@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5" />
+      <stop offset="50%" stop-color="#7c3aed" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1.2" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Base Rounded Shield -->
+  <rect x="2" y="2" width="28" height="28" rx="7" fill="url(#bgGrad)" />
+  <rect x="2" y="2" width="28" height="28" rx="7" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="1" />
+
+  <!-- Network Interconnection Lines -->
+  <path d="M16 7L7 23H25L16 7Z" stroke="#ffffff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" opacity="0.95" />
+  <path d="M16 7V23M7 23L20 15M25 23L12 15" stroke="rgba(255,255,255,0.6)" stroke-width="1.2" stroke-linecap="round" />
+
+  <!-- Network Nodes with High Contrast Glowing Colors -->
+  <!-- Top Node -->
+  <circle cx="16" cy="7" r="2.6" fill="#22d3ee" stroke="#ffffff" stroke-width="1.2" filter="url(#glow)" />
+  <!-- Left Node -->
+  <circle cx="7" cy="23" r="2.6" fill="#a855f7" stroke="#ffffff" stroke-width="1.2" filter="url(#glow)" />
+  <!-- Right Node -->
+  <circle cx="25" cy="23" r="2.6" fill="#38bdf8" stroke="#ffffff" stroke-width="1.2" filter="url(#glow)" />
+  <!-- Center Core Node -->
+  <circle cx="16" cy="17" r="1.8" fill="#ffffff" />
+</svg>
