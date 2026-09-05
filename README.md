@@ -6,6 +6,7 @@
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16+-336791.svg?style=flat&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
 [![Framer Motion](https://img.shields.io/badge/Framer_Motion-12.0+-FF0055.svg?style=flat&logo=framer&logoColor=white)](https://www.framer.com/motion/)
 
+
 **NetSage AI** is an end-to-end, enterprise-grade Autonomous Network Troubleshooting and Diagnostic Intelligence Platform. It combines deterministic rule engines, semantic network feature extraction, and dynamic diagnostic reasoning to analyze complex multi-vendor network anomalies across OSI Layers 1 through 7.
 
 ---
