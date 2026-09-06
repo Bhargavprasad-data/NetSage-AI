@@ -44,7 +44,6 @@
 
 ## 🏗️ Architecture & Tech Stack
 
-```
 NetSage AI/
 ├── backend/                  # FastAPI REST API Backend
 │   ├── alembic/              # Alembic database migrations
