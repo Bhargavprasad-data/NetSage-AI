@@ -40,8 +40,6 @@
 - **📥 Dataset Import & Export**:
   - Bulk CSV dataset ingestion and flat CSV report export.
 
----
-
 ## 🏗️ Architecture & Tech Stack
 
 NetSage AI/
@@ -69,8 +67,6 @@ NetSage AI/
     ├── index.html            # Application HTML shell
     └── vite.config.ts        # Vite configuration
 ```
-
----
 
 ## 📦 Getting Started
 
